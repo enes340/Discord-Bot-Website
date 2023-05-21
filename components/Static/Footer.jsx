@@ -11,7 +11,7 @@ export default function Footer() {
                     <div className="lg:grid lg:grid-cols-6 gap-20">
                         <div className="col-span-3">
                             <div className="flex items-center space-x-5">
-                                <img src="/img/logo2.png" className="rounded-full w-12" />
+                                <img src="/img/logo.png" className="rounded-full w-12" />
                                 <p className="font-semibold text-xl text-white">OrgBot</p>
                             </div>
                             <Menu as="div" className="relative mt-3 inline-block text-left">
@@ -109,7 +109,7 @@ export default function Footer() {
                     </div>
                     <div className="mt-10 grid content-center grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
                         <p className="text-white text-center sm:text-left text-opacity-50">
-                            {new Date().getFullYear()} &copy; Astra Bot
+                            {new Date().getFullYear()} &copy; Org Bot
                         </p>
                         <div className="hidden md:flex items-center justify-center">
                                 <p className={"text-xs text-green-400"}>
